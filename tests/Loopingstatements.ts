@@ -31,4 +31,4 @@ let gg:number;               //------>Global Variable
 for(let gg=1;gg<=10;gg++){      //-------> Re-initialisation done in the for loop for g
     console.log(gg)
 }
-console.log(gg);             //--------->So the value of f is considered for loop initialisation and o/p==> undefined
+//console.log(gg);             //--------->So the value of f is considered for loop initialisation and o/p==> undefined
