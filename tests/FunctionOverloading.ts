@@ -43,7 +43,7 @@ console.log(getvalue(10,20));
 console.log("==>Different parameters and different return type")
 //Signature creation
 function getdatascore(a:number):number;
-function getdatascore(b:string):string;
+function getdatascore(a:string):string;
 
 //implementation
 function getdatascore(para: number|string):string|number{
