@@ -31,4 +31,23 @@ let gg:number;               //------>Global Variable
 for(let gg=1;gg<=10;gg++){      //-------> Re-initialisation done in the for loop for g
     console.log(gg)
 }
-console.log(gg);             //--------->So the value of f is considered for loop initialisation and o/p==> undefined
+//console.log(gg);             //--------->So the value of f is considered for loop initialisation and o/p==> undefined
+///////////////////////////////////
+console.log("=>Break and continue")
+console.log("=>Break Keyword")
+for (let i=1;i<=5;i++){
+    if(i==5){
+        console.log("The Value is 5 so breaking the for loop");
+        break;     //-----------> So the break keyword is used it will print till 5 and loop would break;==> o/p==>1,2,3,4,
+                    // The Value is 5 so breaking the for loop
+    }
+    console.log(i);
+}
+console.log("=>Continue Keyword")
+for (let i=1;i<=10;i++){
+    if(i==5){
+        continue;     //-----------> So the continue keyword is used it will print skip 5 ;==> o/p==>1,2,3,4,6,7,8,9,10
+    }
+    console.log(i);
+}
+///////////////////////////////////

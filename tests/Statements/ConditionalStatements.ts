@@ -26,8 +26,8 @@ else{
 }
 //////////////////////////////////////////////
 console.log("=> Switch cases")
-let d:string="Car";
-switch(d){
+let val:string="Car";
+switch(val){
     case "bike":
         console.log("It is bike");
         break;
