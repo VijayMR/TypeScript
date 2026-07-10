@@ -31,7 +31,7 @@ function greet3(){
 }
 
 //function invoking
-expected(5,5,greet,greet1,greet3) //---greet,greet1 is the function name
+expected(5,5,greet,greet1,greet3) //---greet,greet1,greet3 is the function name
 
 
 
